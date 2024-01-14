@@ -1,0 +1,37 @@
+/* Reset CSS */
+
+/* Establece márgenes y rellenos predeterminados en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Normaliza estilos para mejorar la consistencia entre navegadores */
+  body, h1, h2, h3, p ,ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Asegura que los elementos de lista se muestren correctamente */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Establece estilos base para el cuerpo del documento */
+  body {
+    line-height: 1.6;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  
+  /* Asegura que las imágenes se comporten de manera predeterminada */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Agrega estilos adicionales según sea necesario */
+  
+  /* Fin del Reset CSS */
+  
